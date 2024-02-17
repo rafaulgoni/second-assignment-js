@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bus Ticket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- header section -->
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+                  </ul>
+              </div>
+              <a class="btn btn-ghost text-2xl font-extrabold text-black">R.G.-Ticket</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn text-[#1DD100] bg-[#1DD1001A]">Bus <img src="images/bus-icon.png" alt=""></a>
+            </div>
+          </div>
+    </header>
+    <!-- main section -->
+    <main class="container mx-auto">
+        <div class="hero h-[700px] rounded-[32px]" style="background-image: url(images/banner.png);">
+            <div class="hero-content text-center text-neutral-content">
+              <div class="">
+                <h1 class="mb-5 text-5xl font-bold font-raleway">End-to-End Travel with <br><span class="text-[#1DD100] font-raleway">R.G. Express</span></h1>
+                <p class="mb-5 text-white font-inter">R.G. Express is one of the top bus services in Bangladesh. R.G. Express has so many buses on <br>many routes in Bangladesh. This Bus company has a bunch of luxurious AC and<br> Non AC buses in our country.</p>
+                <button class="btn bg-[#1DD100] border-none text-black font-bold">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+          <!-- Cupon section -->
+          <section class="mb-5 lg:mb-20">
+            <h1 class="text-center font-extrabold text-black font-raleway text-3xl p-5 lg:p-20">Best offers for you</h1>
+            <div class="lg:flex justify-around">
+                <div class="bg-[#FFBF0F] h-[220px] w-auto lg:w-[600px] flex rounded-xl items-center">
+                    <div class="font-inter p-4 lg:p-20 space-y-2">
+                    <h1 class="text-black text-3xl font-extrabold">15% OFF</h1>
+                    <p class="font-bold">on your next purchase</p>
+                    <p>use by January 2024</p>
+                    </div>
+                    <div><img src="images/cupon-devider.png" alt=""></div>
+                    <div class="font-raleway p-2 lg:p-10">
+                    <h1 class="text-black text-3xl font-bold">NEW15</h1>
+                    <p>Coupon Code</p>
+                    </div>
+                </div>
+                <div class="pt-5 lg:pt-0">
+                  <div class="bg-[#F78C9C] h-[220px] w-auto lg:w-[600px] flex rounded-xl items-center">
+                      <div class="font-inter p-4 lg:p-20 space-y-2">
+                      <h1 class="text-black text-3xl font-extrabold">20% OFF</h1>
+                      <p class="font-bold">on your next purchase</p>
+                      <p>use by January 2024</p>
+                      </div>
+                      <div><img src="images/cupon-devider.png" alt=""></div>
+                      <div class="font-raleway p-0 lg:p-10">
+                      <h1 class="text-black text-2xl font-bold">Couple 20</h1>
+                      <p>Coupon Code</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="text-center pt-5 lg:pt-10">
+              <button class="text-[#1DD100] bg-white font-bold p-4 rounded-lg" style="border: 1px solid var(--primary-700, #1DD100);">See All Offers</button>
+            </div>
+          </section>
+    </main>
+    <main class="bg-[#F7F8F8]" style="border-radius: 88px 88px 0px 0px; border-top: 2px solid var(--primary-700, #1DD100);">
+      <div class="text-center pt-8 lg:pt-20 pb-10">
+        <h1 class="text-3xl text-black font-extrabold font-raleway">R.G. Express</h1>
+        <p class="text-black font-extralight font-raleway">The R.G. Express bus service in Bangladesh is really a hot topic now! Cause day by day Bangladesh going to a<br> better position in the traveling section.</p>
+      </div>
+      <section class="flex container mx-auto bg-white lg:h-[418px] rounded-3xl">
+        <nav class="p-5 lg:p-10">
+          <div class="lg:flex justify-between w-full lg:w-[908px] pb-8">
+            <div class="lg:flex">
+              <img class="max-h-[48px]" src="images/mamabus.png" alt="">
+              <div>
+                <h1 class="text-3xl font-bold text-black">R.G. Express</h1>
+                <p class="font-raleway">Coach-009-WEB ! AC_Business</p>
+              </div>
+            </div>
+            <div>
+              <button class="btn flex text-[#1DD100] bg-[#1DD1001A]"><img src="images/seat-gray.png" alt=""><span>40</span> Seats left</button>
+            </div>
+          </div>
+          <div class="lg:h-[258px] bg-[#F7F8F8] w-full rounded-2xl hidden lg:block p-10 space-y-5">
+            <div class="flex lg:justify-between">
+              <h1>Route</h1>
+              <h1 class="font-bold">Dhaka - Sylhet</h1>
+            </div>
+            <hr class="border-dashed">
+            <div class="flex justify-between">
+              <h1>Departure Time</h1>
+              <h1 class="font-bold">9:00 PM</h1>
+            </div>
+            <hr class="border-dashed">
+            <div class="flex justify-between">
+              <button class="btn">Boarding Point - Laxmipur</button>
+              <button class="btn">Dropping Point - Bogura</button>
+              <button class="btn">Est. Time - 11 Hour</button>
+            </div>
+          </div>
+        </nav>
+        <nav>
+          <img src="images/info-devider.png" alt="">
+        </nav>
+        <nav class="grid items-center pl-2 lg:pl-40 space-y-2">
+          <div class="">
+            <img src="images/fare.png" alt="">
+            <h1 class="font-extrabold text-3xl text-black font-raleway">550 Taka</h1>
+            <p class="font-raleway">Per Seat</p>
+          </div>
+        </nav>
+      </section>
+      <section class="container mx-auto">
+        <nav>
+          <nav>
+
+          </nav>
+          <nav>
+
+          </nav>
+        </nav>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer class="p-5 bg-[#030712] pt-10">
+        <div class="container mx-auto lg:flex justify-center justify-between">
+            <div>
+                <h1 class="text-white text-3xl font-extrabold">R.G.-Ticket</h1>
+                <p class="text-white pt-5">P-Ticket is a digital platform to make your <br>daily commuting better.</p>
+            </div>
+            <div>
+                <h6 class="text-white text-2xl">Download our app</h6>
+                <div class="pt-5 pb-5">
+                <img src="images/play.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr class="container mx-auto border-dotted">
+        <div class="container mx-auto ">
+            <div class="lg:flex justify-between pt-5 lg:pt-10 pb-5 lg:pb-10">
+                <p class="text-white">@all rights reserved, R.G.-Ticket services limited.2024</p>
+                <p class="text-white">Terms & condition</p>
+                <p class="text-white">Return & refund policy</p>
+                <p class="text-white">Privacy policy</p>
+            </div>
+        </div>
+      </footer>
+      <section class="container mx-auto min-h-screen bg-[#F2F1F1] grid justify-center text-center items-center hidden">
+          <div class="bg-white h-[481px] w-[718px] space-y-4 p-1 lg:p-10 rounded-3xl">
+            <div class="grid justify-center">
+              <img src="images/success.png" alt="">
+            </div>
+            <div>
+            <h1 class="text-[#27AE60] font-bold text-2xl font-sans">SUCCESS</h1>
+            <p class=" text-black font-bold">Thank you for Booking Our Bus Seats. 
+              We are working hard to find the best service and deals for you.</p> 
+            <p class="font-raleway">Shortly you will find a confirmation in your email.</p>
+            <button class="btn btn-success">Continue</button></div>
+          </div>
+      </section>
+    <script src="javascript/idex.js"></script>
+</body>
+</html>
