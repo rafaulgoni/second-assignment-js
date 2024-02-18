@@ -41,7 +41,7 @@
     </header>
     <!-- main section -->
     <main class="container mx-auto">
-        <div class="hero h-[700px] rounded-[32px]" style="background-image: url(images/banner.png);">
+        <div class="hero h-[700px] rounded-[32px] relative" style="background-image: url(images/banner.png);">
             <div class="hero-content text-center text-neutral-content">
               <div class="">
                 <h1 class="mb-5 text-5xl font-bold font-raleway">End-to-End Travel with <br><span class="text-[#1DD100] font-raleway">R.G. Express</span></h1>
@@ -50,8 +50,25 @@
               </div>
             </div>
           </div>
+          <div class="flex absolute top-[700px] left-[400px] gap-x-20">
+            <div class="w-[308px] h-[138px] bg-white rounded-3xl flex p-5" style="border-bottom: 3px solid var(--primary-700, #1DD100);">
+              <img src="images/people.png" alt="" class="h-[100px]">
+              <div><h1 class="text-black font-extrabold text-3xl">500K+</h1><br>
+              <p>Registered users</p></div>
+            </div>
+            <div class="w-[308px] h-[138px] bg-white rounded-3xl flex p-5" style="border-bottom: 3px solid var(--primary-700, #1DD100);">
+              <img src="images/ticket-cupon.png" alt="" class="h-[100px]">
+              <div><h1 class="text-black font-extrabold text-3xl">1.7 lacks</h1><br>
+              <p>Tickets sold</p></div>
+            </div>
+            <div class="w-[308px] h-[138px] bg-white rounded-3xl flex p-5" style="border-bottom: 3px solid var(--primary-700, #1DD100);">
+              <img src="images/stoppage.png" alt="" class="h-[100px]">
+              <div><h1 class="text-black font-extrabold text-3xl">80K+</h1><br>
+              <p>Registered users</p></div>
+            </div>
+          </div>
           <!-- Cupon section -->
-          <section class="mb-5 lg:mb-20">
+          <section class="mb-5 mt-20 lg:mb-20">
             <h1 class="text-center font-extrabold text-black font-raleway text-3xl p-5 lg:p-20">Best offers for you</h1>
             <div class="lg:flex justify-around">
                 <div class="bg-[#FFBF0F] h-[220px] w-auto lg:w-[600px] flex rounded-xl items-center">
@@ -134,20 +151,154 @@
           </div>
         </nav>
       </section>
-      <section class="container mx-auto">
-        <nav>
-          <nav>
-
+      <section class="container mx-auto lg:h-[1050px] bg-white rounded-t-3xl mt-8 p-8">
+        <nav class="grid grid-cols-2">
+          <nav class="space-y-7">
+            <h1 class="font-bold text-2xl text-black">Select Your Seat</h1>
+            <hr class="border-dashed">
+            <div class="flex justify-between">
+              <h1 class="flex"><img src="images/seat-gray.png" alt="">Available</h1>
+              <h1 class="flex"><img src="images/seat-green-filled.png" alt=""><span class="text-[#1DD100]">Selected</span></h1>
+            </div>
+            <hr class="border-dashed">
+            <div class="flex justify-end">
+              <button class="btn"><img src="images/tabler-icon-steering-wheel.svg" alt=""></button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">A</button>
+              <button class="btn w-[100px]">A1</button>
+              <button class="btn w-[100px]">A2</button>
+              <button class="btn w-[100px]">A3</button>
+              <button class="btn w-[100px]">A4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">B</button>
+              <button class="btn w-[100px]">B1</button>
+              <button class="btn w-[100px]">B2</button>
+              <button class="btn w-[100px]">B3</button>
+              <button class="btn w-[100px]">B4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">C</button>
+              <button class="btn w-[100px]">C1</button>
+              <button class="btn w-[100px]">C2</button>
+              <button class="btn w-[100px]">C3</button>
+              <button class="btn w-[100px]">C4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">D</button>
+              <button class="btn w-[100px]">D1</button>
+              <button class="btn w-[100px]">D2</button>
+              <button class="btn w-[100px]">D3</button>
+              <button class="btn w-[100px]">D4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">E</button>
+              <button class="btn w-[100px]">E1</button>
+              <button class="btn w-[100px]">E2</button>
+              <button class="btn w-[100px]">E3</button>
+              <button class="btn w-[100px]">E4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">F</button>
+              <button class="btn w-[100px]">F1</button>
+              <button class="btn w-[100px]">F2</button>
+              <button class="btn w-[100px]">F3</button>
+              <button class="btn w-[100px]">F4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">G</button>
+              <button class="btn w-[100px]">G1</button>
+              <button class="btn w-[100px]">G2</button>
+              <button class="btn w-[100px]">G3</button>
+              <button class="btn w-[100px]">G4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">H</button>
+              <button class="btn w-[100px]">H1</button>
+              <button class="btn w-[100px]">H2</button>
+              <button class="btn w-[100px]">H3</button>
+              <button class="btn w-[100px]">H4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">I</button>
+              <button class="btn w-[100px]">I1</button>
+              <button class="btn w-[100px]">I2</button>
+              <button class="btn w-[100px]">I3</button>
+              <button class="btn w-[100px]">I4</button>
+            </div>
+            <div class="flex justify-between">
+              <button class="w-[30px]">J</button>
+              <button class="btn w-[100px]">J1</button>
+              <button class="btn w-[100px]">J2</button>
+              <button class="btn w-[100px]">J3</button>
+              <button class="btn w-[100px]">J4</button>
+            </div>
           </nav>
-          <nav>
-
+          <nav class="space-y-6 pl-8">
+            <h1 class="font-bold text-2xl text-black">Select Your Seat</h1>
+            <hr class="border-dashed">
+            <div class="h-[335px] w-[w-433px] bg-[#F7F8F8] rounded-2xl p-8 space-y-4">
+              <div class="flex justify-between">
+                <h1 class="font-bold">Seat<samp class="w-auto bg-[#1DD100] text-white rounded-full">0</samp></h1>
+                <h1 class="font-bold">Class</h1>
+                <h1 class="font-bold">Price</h1>
+              </div>
+              <hr class="border-dashed">
+              <div class="flex justify-between">
+                <h1>C1</h1>
+                <h1>Economoy</h1>
+                <h1>550</h1>
+              </div>
+              <div class="flex justify-between">
+                <h1>C2</h1>
+                <h1>Economoy</h1>
+                <h1>550</h1>
+              </div>
+              <hr class="border-dashed">
+              <div class="flex justify-between">
+                <h1 class="font-bold text-black">Total Price</h1>
+                <h1 class="font-bold text-black">BDT <samp>0</samp></h1>
+              </div>
+              <div class="flex justify-between">
+                <textarea class="rounded-l-2xl rounded-r-xl p-3" placeholder="Have any copupon?" name="" id="" cols="100" rows="1"></textarea>
+                <button class="btn bg-[#1DD100]">Apply</button>
+              </div>
+              <div class="flex justify-between">
+                <h1 class="font-bold text-black">Grand Price</h1>
+                <h1 class="font-bold text-black">BDT <samp>0</samp></h1>
+              </div>
+            </div>
+            <div>
+              <div class="space-y-3">
+                <label class=" text-black font-bold" for="">Passenger Name*</label>
+                <input type="text" placeholder="Enter your name" class="w-full h-[64px] p-5 rounded-2xl bg-[#F7F8F8]">
+              </div>
+            </div>
+            <div>
+              <div class="space-y-3">
+                <label class=" text-black font-bold" for="">Phone Number*</label>
+                <input type="text" placeholder="Enter your phone number" class="w-full p-5 h-[64px] rounded-2xl bg-[#F7F8F8]">
+              </div>
+            </div>
+            <div>
+              <div class="space-y-3">
+                <label class=" text-black font-bold" for="">Email ID</label>
+                <input type="text" placeholder="Enter your email id" class="w-full p-5 h-[64px] rounded-2xl bg-[#F7F8F8]">
+              </div>
+            </div>
+            <button class="btn w-full text-white bg-[#1DD100]">Next</button>
+            <div class="flex justify-around">
+              <h1><u class="font-raleway">Terms and Conditions</u></h1>
+              <h1><u class="font-raleway">Cancellation Policy</u></h1>
+            </div>
           </nav>
         </nav>
       </section>
     </main>
     <!-- footer section -->
-    <footer class="p-5 bg-[#030712] pt-10">
-        <div class="container mx-auto lg:flex justify-center justify-between">
+    <footer class="p-5 bg-[#030712] mt-10 pt-10">
+        <div class="container mx-auto lg:flex justify-between">
             <div>
                 <h1 class="text-white text-3xl font-extrabold">R.G.-Ticket</h1>
                 <p class="text-white pt-5">P-Ticket is a digital platform to make your <br>daily commuting better.</p>
